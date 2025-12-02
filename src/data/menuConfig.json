@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Study with us",
+    "path": "/study",
+    "children": [
+      {
+        "title": "Courses",
+        "children": [
+          { "title": "Undergraduate", "path": "/study/courses/undergraduate" },
+          { "title": "Postgraduate", "path": "/study/courses/postgraduate" },
+          { "title": "Phd", "path": "/study/courses/phd" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Apply",
+    "path": "/apply",
+    "children": [
+      { "title": "Undergraduate admissions", "path": "/apply/undergraduate" },
+      { "title": "Postgraduate admissions", "path": "/apply/postgraduate" },
+      { "title": "Transfer Credit", "path": "/apply/transfer-credit" }
+    ]
+  },
+  {
+    "title": "VALIDATION SERVICES",
+    "path": "/validation-services"
+  },
+  {
+    "title": "Business and employers",
+    "path": "/business",
+    "children": [
+      { "title": "Access our experts", "path": "/business/experts" },
+      { "title": "Employing students and graduates", "path": "/business/employing" },
+      { "title": "Fundings for growth", "path": "/business/fundings" },
+      { "title": "Degrees at Work", "path": "/business/degrees-at-work" },
+      { "title": "Professional courses", "path": "/business/professional-courses" }
+    ]
+  },
+  {
+    "title": "International",
+    "path": "/international",
+    "children": [
+      { "title": "Student support", "path": "/international/support" },
+      { "title": "Making your application", "path": "/international/application" },
+      {
+        "title": "Courses",
+        "children": [
+          { "title": "Undergraduate", "path": "/international/courses/undergraduate" },
+          { "title": "Postgraduate", "path": "/international/courses/postgraduate" },
+          { "title": "Phd", "path": "/international/courses/phd" }
+        ]
+      },
+      { "title": "How to apply", "path": "/international/how-to-apply" },
+      { "title": "English language requirements", "path": "/international/english-requirements" },
+      { "title": "Information for new students", "path": "/international/new-students" },
+      { "title": "Planning your travel", "path": "/international/travel" },
+      { "title": "International orientation", "path": "/international/orientation" }
+    ]
+  },
+  {
+    "title": "Student life",
+    "path": "/student-life",
+    "children": [
+      { "title": "When you arrive", "path": "/student-life/arrival" },
+      { "title": "Before you get here", "path": "/student-life/pre-arrival" },
+      { "title": "Fee Payments", "path": "/student-life/fees" },
+      { "title": "Your first week", "path": "/student-life/first-week" },
+      { "title": "Support your study", "path": "/student-life/support" },
+      { "title": "Disability support", "path": "/student-life/disability" },
+      { "title": "Study skills", "path": "/student-life/skills" },
+      { "title": "Careers and employability", "path": "/student-life/careers" },
+      { "title": "Student volunteering", "path": "/student-life/volunteering" },
+      { "title": "Work while you study", "path": "/student-life/work-study" }
+    ]
+  },
+  {
+    "title": "Research",
+    "path": "/research",
+    "children": [
+      { "title": "Research support", "path": "/research/support" },
+      { "title": "Research degrees", "path": "/research/degrees" }
+    ]
+  }
+]
