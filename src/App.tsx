@@ -29,8 +29,26 @@ import { Accreditations } from './pages/Accreditations';
 
 // Pages - Phase 4 (Admissions & Contact)
 import { Admissions } from './pages/Admissions';
+import { UndergraduateAdmissions } from './pages/apply/UndergraduateAdmissions'; // YENİ IMPORT
+import { PostgraduateAdmissions } from './pages/apply/PostgraduateAdmissions';
+import { TransferCredit } from './pages/apply/TransferCredit';
 import { Tuition } from './pages/Tuition';
 import { Contact } from './pages/Contact';
+import { StudentSupport } from './pages/StudentSupport';
+import { HowToApply } from './pages/international/HowToApply';
+import { EnglishRequirements } from './pages/international/EnglishRequirements';
+import { NewStudents } from './pages/international/NewStudents';
+import { PlanningTravel } from './pages/international/PlanningTravel';
+import { Orientation } from './pages/international/Orientation';
+import { Arrival } from './pages/student-life/Arrival';
+import { PreArrival } from './pages/student-life/PreArrival';
+import { FirstWeek } from './pages/student-life/FirstWeek';
+import { StudySupport } from './pages/student-life/StudySupport';
+import { DisabilitySupport } from './pages/student-life/DisabilitySupport';
+import { StudySkills } from './pages/student-life/StudySkills';
+import { Careers } from './pages/student-life/Careers';
+import { Volunteering } from './pages/student-life/Volunteering';
+import { WorkStudy } from './pages/student-life/WorkStudy';
 
 // Pages - Phase 5 (Business & Validation)
 import { ValidationServices } from './pages/ValidationServices';
@@ -43,7 +61,8 @@ import { ProfessionalCourses } from './pages/business/ProfessionalCourses';
 // Pages - Phase 6 & 8 (Student Life & Generic)
 import { StudentLife } from './pages/StudentLife';
 import { GenericContent } from './pages/GenericContent';
-
+import { ResearchSupport } from './pages/research/ResearchSupport';
+import { ResearchDegrees } from './pages/research/ResearchDegrees';
 // Scroll to Top: Sayfa değişimlerinde en üste atar
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -92,6 +111,11 @@ const AppContent = () => {
             <Route path="/international/courses/undergraduate" element={<PageTransition><Undergraduate /></PageTransition>} />
             <Route path="/international/courses/postgraduate" element={<PageTransition><Postgraduate /></PageTransition>} />
             <Route path="/international/courses/phd" element={<PageTransition><Phd /></PageTransition>} />
+            <Route path="/international/how-to-apply" element={<PageTransition><HowToApply /></PageTransition>} />
+            <Route path="/international/english-requirements" element={<PageTransition><EnglishRequirements /></PageTransition>} />
+            <Route path="/international/new-students" element={<PageTransition><NewStudents /></PageTransition>} />
+            <Route path="/international/travel" element={<PageTransition><PlanningTravel /></PageTransition>} />
+            <Route path="/international/orientation" element={<PageTransition><Orientation /></PageTransition>} />
 
             {/* --- ADMISSIONS & FEES --- */}
             <Route path="/admissions" element={<PageTransition><Admissions /></PageTransition>} />
@@ -101,7 +125,9 @@ const AppContent = () => {
             <Route path="/apply/undergraduate" element={<PageTransition><PagePlaceholder title="Undergraduate Admissions" /></PageTransition>} />
             <Route path="/apply/postgraduate" element={<PageTransition><PagePlaceholder title="Postgraduate Admissions" /></PageTransition>} />
             <Route path="/apply/transfer-credit" element={<PageTransition><PagePlaceholder title="Transfer Credit" /></PageTransition>} />
-
+            <Route path="/apply/undergraduate" element={<PageTransition><UndergraduateAdmissions /></PageTransition>} />  
+            <Route path="/apply/postgraduate" element={<PageTransition><PostgraduateAdmissions /></PageTransition>} />
+            <Route path="/apply/transfer-credit" element={<PageTransition><TransferCredit /></PageTransition>} />
             {/* --- BUSINESS & VALIDATION --- */}
             <Route path="/validation-services" element={<PageTransition><ValidationServices /></PageTransition>} />
             
@@ -119,12 +145,22 @@ const AppContent = () => {
             <Route path="/international/new-students" element={<PageTransition><GenericContent /></PageTransition>} />
             <Route path="/international/travel" element={<PageTransition><GenericContent /></PageTransition>} />
             <Route path="/international/orientation" element={<PageTransition><GenericContent /></PageTransition>} />
+            <Route path="/international/support" element={<PageTransition><StudentSupport /></PageTransition>} />
 
             {/* --- STUDENT LIFE --- */}
             <Route path="/student-life/pre-arrival" element={<PageTransition><StudentLife /></PageTransition>} />
             <Route path="/student-life/arrival" element={<PageTransition><StudentLife /></PageTransition>} />
             <Route path="/student-life/first-week" element={<PageTransition><StudentLife /></PageTransition>} />
-            
+            <Route path="/student-life/arrival" element={<PageTransition><Arrival /></PageTransition>} />
+            <Route path="/student-life/pre-arrival" element={<PageTransition><PreArrival /></PageTransition>} />
+            <Route path="/student-life/first-week" element={<PageTransition><FirstWeek /></PageTransition>} />
+            <Route path="/student-life/support" element={<PageTransition><StudySupport /></PageTransition>} />
+            <Route path="/student-life/disability" element={<PageTransition><DisabilitySupport /></PageTransition>} />
+            <Route path="/student-life/skills" element={<PageTransition><StudySkills /></PageTransition>} />
+            <Route path="/student-life/careers" element={<PageTransition><Careers /></PageTransition>} />
+            <Route path="/student-life/volunteering" element={<PageTransition><Volunteering /></PageTransition>} />
+            <Route path="/student-life/work-study" element={<PageTransition><WorkStudy /></PageTransition>} />
+
             <Route path="/student-life/support" element={<PageTransition><StudentLife /></PageTransition>} />
             <Route path="/student-life/disability" element={<PageTransition><StudentLife /></PageTransition>} />
             <Route path="/student-life/skills" element={<PageTransition><StudentLife /></PageTransition>} />
@@ -137,7 +173,8 @@ const AppContent = () => {
             {/* --- RESEARCH --- */}
             <Route path="/research/support" element={<PageTransition><GenericContent /></PageTransition>} />
             <Route path="/research/degrees" element={<PageTransition><GenericContent /></PageTransition>} />
-
+            <Route path="/research/support" element={<PageTransition><ResearchSupport /></PageTransition>} />
+            <Route path="/research/degrees" element={<PageTransition><ResearchDegrees /></PageTransition>} />
             {/* 404 - Page Not Found */}
             <Route path="*" element={<PageTransition><NotFound /></PageTransition>} />
 
