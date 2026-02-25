@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { programmes } from '../../data/programmes';
 
 import researchImg from '../../assets/images/research-lab.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 export const Phd = () => {
   const phdDegrees = programmes.filter(p => p.level === 'Doctorate');

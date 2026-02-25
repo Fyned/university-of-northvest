@@ -6,6 +6,7 @@ import { CheckCircle, TrendingUp, Users, Building2, ArrowRight } from 'lucide-re
 import { motion } from 'framer-motion';
 
 import corporateImg from '../../assets/images/corporate-meeting.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const supportAreas = [
   'Problem-solving business issues to improve efficiency and aid innovation',

@@ -7,6 +7,7 @@ import { Microscope, Search, Beaker, BookOpen, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import researchImg from '../../assets/images/research-lab.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 const researchAreas = [
   'Analytical Chemistry – MPhil, PhD',
   'Animal and Environmental Sciences – MPhil, PhD',

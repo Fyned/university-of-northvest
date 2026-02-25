@@ -3,6 +3,7 @@ import { Container } from '../components/common/Container';
 import { PageHeader } from '../components/common/PageHeader';
 import { Phone, Mail, MapPin, Clock, ArrowRight, Send } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { fadeInUp, stagger } from '../utils/animations';
 
 export const Contact = () => {
   return (

@@ -6,6 +6,7 @@ import { CheckCircle, BookOpen, Briefcase, GraduationCap, ArrowRight, Zap } from
 import { motion } from 'framer-motion';
 
 import campusImg from '../../assets/images/campus-building.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const creditTypes = [
   {

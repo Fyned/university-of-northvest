@@ -6,6 +6,7 @@ import { CheckCircle, Calendar, FileText, Award, AlertCircle, ArrowRight, PenToo
 import { motion } from 'framer-motion';
 
 import gradImg from '../../assets/images/graduation.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 export const PostgraduateAdmissions = () => {
   return (

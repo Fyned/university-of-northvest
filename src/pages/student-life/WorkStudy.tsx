@@ -6,6 +6,7 @@ import { Briefcase, DollarSign, Award, Globe, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import workImg from '../../assets/images/corporate-meeting.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const advantages = [
   {

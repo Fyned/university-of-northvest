@@ -6,6 +6,7 @@ import { AlertTriangle, Mail, Laptop, CreditCard, ShieldAlert, ArrowRight } from
 import { motion } from 'framer-motion';
 
 import campusImg from '../../assets/images/campus-building.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const steps = [
   {

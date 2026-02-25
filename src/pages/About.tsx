@@ -5,6 +5,7 @@ import { SmartImage } from '../components/common/SmartImage';
 import { Award, Globe, CheckCircle, Quote, Users, BookOpen, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import campusImg from '../assets/images/campus-building.jpg';
+import { fadeInUp, stagger } from '../utils/animations';
 
 export const About = () => {
   return (

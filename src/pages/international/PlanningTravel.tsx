@@ -6,6 +6,7 @@ import { CheckCircle, AlertCircle, Plane, FileText, Pill, Wallet, ArrowRight } f
 import { motion } from 'framer-motion';
 
 import travelImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const checklistItems = [
   {

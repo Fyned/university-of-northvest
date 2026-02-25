@@ -6,6 +6,7 @@ import { Accessibility, CheckCircle, Clock, Heart, ArrowRight } from 'lucide-rea
 import { motion } from 'framer-motion';
 
 import supportImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const helpItems = [
   'Exam and assessment adjustments',

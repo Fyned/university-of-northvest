@@ -6,6 +6,7 @@ import { Library, Wifi, Languages, Microscope, Monitor, BookOpen, ArrowRight } f
 import { motion } from 'framer-motion';
 
 import libraryImg from '../../assets/images/campus-building.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const resources = [
   {

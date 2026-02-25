@@ -6,6 +6,7 @@ import { Ear, PenTool, BookOpen, Quote, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import corporateImg from '../../assets/images/corporate-meeting.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const processSteps = [
   {

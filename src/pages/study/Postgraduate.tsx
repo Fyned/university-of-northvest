@@ -7,6 +7,7 @@ import { Check, Search, BookOpen, ArrowRight, Award, Clock, Globe } from 'lucide
 import { motion } from 'framer-motion';
 
 import gradImg from '../../assets/images/graduation.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 const degrees = [
   "Accounting – MSc",
   "Accounting and Finance – MSc",

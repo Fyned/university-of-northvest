@@ -6,6 +6,7 @@ import { Calendar, Users, Music, Map, Heart, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import welcomeImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const activities = [
   {

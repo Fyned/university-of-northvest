@@ -6,6 +6,7 @@ import { CheckCircle, Users, Briefcase, Award, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import gradImg from '../../assets/images/graduation.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const benefits = [
   'Introducing innovative new ideas into your business',

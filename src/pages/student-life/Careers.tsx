@@ -6,6 +6,7 @@ import { Briefcase, UserPlus, TrendingUp, Mail, ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion';
 
 import careerImg from '../../assets/images/corporate-meeting.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const careerServices = [
   {

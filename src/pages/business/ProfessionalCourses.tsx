@@ -7,6 +7,7 @@ import { CheckCircle, Settings, BookOpen, Briefcase, ArrowRight } from 'lucide-r
 import { motion } from 'framer-motion';
 
 import trainingImg from '../../assets/images/corporate-meeting.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const stats = [
   { label: 'International Student Success', value: 93 },

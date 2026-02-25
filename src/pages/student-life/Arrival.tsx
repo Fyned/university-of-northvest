@@ -6,6 +6,7 @@ import { CheckCircle, AlertTriangle, HelpCircle, Briefcase, MapPin, DollarSign, 
 import { motion } from 'framer-motion';
 
 import arrivalImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const faqItems = [
   {

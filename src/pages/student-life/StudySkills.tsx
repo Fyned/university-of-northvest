@@ -6,6 +6,7 @@ import { BookOpen, PenTool, Calculator, Users, Clock, Search, CheckCircle, Calen
 import { motion } from 'framer-motion';
 
 import skillsImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const skills = [
   { title: 'Research & Referencing', icon: Search },

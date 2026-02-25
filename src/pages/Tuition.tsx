@@ -6,6 +6,7 @@ import { CreditCard, Calendar, Globe, DollarSign, ShieldCheck, ArrowRight } from
 import { motion } from 'framer-motion';
 
 import financeImg from '../assets/images/corporate-meeting.jpg';
+import { fadeInUp, stagger } from '../utils/animations';
 
 const paymentOptions = [
   {

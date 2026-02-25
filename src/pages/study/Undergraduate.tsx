@@ -7,6 +7,7 @@ import { Check, Search, BookOpen, ArrowRight, GraduationCap, Clock, Users } from
 import { motion } from 'framer-motion';
 
 import studentLifeImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 const degrees = [
   "Accounting and Finance – BSc (Hons)",
   "Accounting and Financial Management (Top-Up) – BSc (Hons)",

@@ -6,6 +6,7 @@ import { Compass, Users, Calendar, Map, CheckCircle, ArrowRight } from 'lucide-r
 import { motion } from 'framer-motion';
 
 import orientationImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const orientationCards = [
   {

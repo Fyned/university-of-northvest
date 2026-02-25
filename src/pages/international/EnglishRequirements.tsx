@@ -6,6 +6,7 @@ import { Globe, BookOpen, CheckCircle, AlertCircle, ArrowRight } from 'lucide-re
 import { motion } from 'framer-motion';
 
 import studyImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 export const EnglishRequirements = () => {
   return (

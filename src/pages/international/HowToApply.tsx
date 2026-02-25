@@ -6,6 +6,7 @@ import { CheckCircle, Globe, GraduationCap, FileText, AlertCircle, ArrowRight, D
 import { motion } from 'framer-motion';
 
 import admissionImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 export const HowToApply = () => {
   return (

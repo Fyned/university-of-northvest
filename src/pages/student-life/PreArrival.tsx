@@ -6,6 +6,7 @@ import { CheckCircle, Map, FileText, Home, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import preArrivalImg from '../../assets/images/student-life.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const registrationBenefits = [
   'Attend lectures & seminars',

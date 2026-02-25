@@ -6,6 +6,7 @@ import { Award, FileText, GraduationCap, CheckCircle, ArrowRight } from 'lucide-
 import { motion } from 'framer-motion';
 
 import researchImg from '../../assets/images/research-lab.jpg';
+import { fadeInUp, stagger } from '../../utils/animations';
 
 const doctoralSubjects = [
   'Science and Technology',
